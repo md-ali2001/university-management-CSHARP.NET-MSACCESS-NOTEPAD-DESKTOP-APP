@@ -26,7 +26,7 @@ namespace universitymanagementsystem
             
 
             
-            OleDbCommand commandRowCount = new OleDbCommand("SELECT COUNT(*) FROM [registration]", Program.con);
+            OleDbCommand commandRowCount = new OleDbCommand("SELECT COUNT(*) FROM [registratiom]", Program.con);
             int countStart = System.Convert.ToInt32(commandRowCount.ExecuteScalar());
 
 
