@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A3E58BC8-06A0-4175-A912-CF3FE9A539C7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>universitymanagementsystem</RootNamespace>
+    <AssemblyName>universitymanagementsystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Azure.ResourceManager, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualStudio.ImageCatalog, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Imaging, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Resources.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form3.Designer.cs">
+      <DependentUpon>form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form3.resx">
+      <DependentUpon>form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3045591.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30455911.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21162862301530273510-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3210720.png" />
+    <None Include="Resources\th.jpg" />
+    <None Include="Resources\2995620.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\3416075.png" />
+    <None Include="Resources\1570933.png" />
+    <None Include="Resources\18185068021582967214-64.png" />
+    <None Include="Resources\732424671582967225-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2021-07-20 at 5.51.56 AM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2021-07-20 at 5.51.56 AM1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Photo from M %282%29.Ali Masood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Photo from M.Ali Masood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ned logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Photo from M %282%29.Ali Masood1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Photo from M %282%29.Ali Masood2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show eye icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide eye icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show eye icon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show eye icon2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide eye icon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide eye icon2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show eye icon3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show eye icon4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide eye icon3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show eye icon5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show eye icon6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide eye icon4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32107201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3215541.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4653380.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1634970.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6494083.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3784125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sportgrounds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lab.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Library01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\37841251.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\department.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exam results02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fees.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher021.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student011.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Department1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sportgrounds1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lab1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Library011.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2021-07-20 at 5.51.56 AM2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2021-07-20 at 5.51.56 AM3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide eye icon5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show eye icon7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Photo from M.Ali Masood1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Photo from M %282%29.Ali Masood3.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
