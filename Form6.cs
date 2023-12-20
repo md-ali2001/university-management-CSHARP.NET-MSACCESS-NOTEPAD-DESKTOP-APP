@@ -111,7 +111,7 @@ namespace universitymanagementsystem
 
         private void button5_Click(object sender, EventArgs e)
         {
-            using (StreamWriter sw = new StreamWriter("C:\\Users\\masood\\Desktop\\this.txt"))
+            using (StreamWriter sw = new StreamWriter("C:\\Users\\ma\\Desktop\\this.txt"))
             {
                 sw.WriteLine(textBox2.Text);
                 MessageBox.Show("NOTICE HAS BEEN SAVED");
@@ -121,7 +121,7 @@ namespace universitymanagementsystem
 
         private void button6_Click(object sender, EventArgs e)
         {
-            using (StreamReader streamReader = new StreamReader("C:\\Users\\masood\\Desktop\\this.txt"))
+            using (StreamReader streamReader = new StreamReader("C:\\Users\\ma\\Desktop\\this.txt"))
             {
                 textBox2.Text = streamReader.ReadToEnd();
             }

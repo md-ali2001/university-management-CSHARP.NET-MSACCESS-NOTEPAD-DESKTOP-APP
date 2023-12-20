@@ -24,7 +24,7 @@ namespace universitymanagementsystem
         }
         private void Form10_Load(object sender, EventArgs e)
         {
-            using (StreamReader streamReader = new StreamReader("C:\\Users\\masood\\Desktop\\count.txt"))
+            using (StreamReader streamReader = new StreamReader("C:\\Users\\ma\\Desktop\\count.txt"))
             {
                 total = Convert.ToInt32(streamReader.ReadToEnd());
             }
@@ -72,7 +72,7 @@ namespace universitymanagementsystem
             adapter.Fill(table);
             dataGridView1.DataSource = table;
             MessageBox.Show("REMAINING BOOK ARE "+total);
-            using (StreamWriter sw = new StreamWriter("C:\\Users\\masood\\Desktop\\count.txt"))
+            using (StreamWriter sw = new StreamWriter("C:\\Users\\ma\\Desktop\\count.txt"))
             {
                 sw.WriteLine(total);
                 
@@ -104,7 +104,7 @@ namespace universitymanagementsystem
                 {
                     total++;
                     MessageBox.Show("REMAINING BOOK ARE " + total);
-                    using (StreamWriter sw = new StreamWriter("C:\\Users\\masood\\Desktop\\count.txt"))
+                    using (StreamWriter sw = new StreamWriter("C:\\Users\\ma\\Desktop\\count.txt"))
                     {
                         sw.WriteLine(total);
                         

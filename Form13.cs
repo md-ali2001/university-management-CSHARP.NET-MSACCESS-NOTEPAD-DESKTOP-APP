@@ -85,7 +85,7 @@ namespace universitymanagementsystem
             DataTable table = new DataTable();
             adapter.Fill(table);
             dataGridView1.DataSource = table;
-            using (StreamReader streamReader = new StreamReader("C:\\Users\\masood\\Desktop\\this.txt"))
+            using (StreamReader streamReader = new StreamReader("C:\\Users\\ma\\Desktop\\this.txt"))
             {
                 textBox2.Text = streamReader.ReadToEnd();
 

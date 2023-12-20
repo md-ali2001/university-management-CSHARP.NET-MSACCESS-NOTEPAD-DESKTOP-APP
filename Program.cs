@@ -14,7 +14,7 @@ namespace universitymanagementsystem
         public static string pass;
         public static string dept;
         //public static string con;
-        public static OleDbConnection  con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\masood\Desktop\connection.accdb");
+        public static OleDbConnection  con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\ma\source\repos\university-management-CSHARP.NET-MSACCESS-NOTEPAD-DESKTOP-APP\connection.accdb");
         //public static OleDbConnection con2 = new OleDbConnection(universitymanagementsystem.Properties.Settings.Default.TestSetting);
 
         /// <summary>
